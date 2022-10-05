@@ -1,0 +1,29 @@
+var admin = require("firebase-admin");
+
+var serviceAccount = require("path/to/serviceAccountKey.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://ttmsa-11e7b-default-rtdb.firebaseio.com"
+});
+
+const express = require( "express");
+const app = express();
+
+app.get('/',function(req, res){
+   return res.json({
+        message: "Hello there :)",
+        success: true
+   })
+});
+
+app.post('/', function(req, res) {
+     return res.json({
+        message: "Welcome :>",
+        success: true
+     })
+});
+
+app.listen(3000, ( ) =>
+   console. log(`Example app listening on port 3000!`),
+);

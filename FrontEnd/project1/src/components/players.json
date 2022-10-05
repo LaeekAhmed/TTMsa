@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Laeek",
+      "rank": 3,
+      "wins": 2,
+      "loses" : 3
+    },
+    {
+      "id": 2,
+      "name": "Ahmed",
+      "rank": 2,
+      "wins": 2,
+      "loses" : 3
+    },
+    {
+      "id": 3,
+      "name": "Zein",
+      "rank": 1,
+      "wins": 2,
+      "loses" : 3
+    },
+    {
+      "id": 4,
+      "name": "Ali",
+      "rank": 4,
+      "wins": 2,
+      "loses" : 3
+    }
+  ]
